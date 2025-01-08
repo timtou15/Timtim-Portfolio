@@ -116,10 +116,4 @@ You are free to use, modify, and distribute it with proper attribution.
 
 ---
 
-### 🌐 Live Demo  
-
-Check out the live version of the portfolio: [Timtim Portfolio](#)  
-
----
-
 **Thank you for visiting! 😊**  
