@@ -79,7 +79,7 @@ Displays services provided, including:
 
 1. **Clone Repository**  
 bash
-git clone https://github.com/username/timtim-portfolio.git
+git clone https://github.com/timtou15/Timtim-Portfolio.git
 
 
 
