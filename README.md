@@ -104,7 +104,6 @@ Navigate to the directory and open `index.html` in any browser.
 ## 🔗 Contact Information  
 
 - **Author**: Luiz Carlos *(a.k.a. Timtim)*  
-- **Email**: [game3198@hotmail.com](mailto:game3198@hotmail.com)  
 - **LinkedIn**: [Luiz Carlos](https://www.linkedin.com/in/luiz-carlos-g-431472240/)  
 
 ---
