@@ -7,6 +7,16 @@ var typed = new Typed(".typing", {
   backSpeed: 60,
   loop: true
 });
+/* ============================= Download CV ============================= */
+
+document.getElementById('download-cv').addEventListener('click', function (event) {
+  event.preventDefault();
+  var link = document.createElement('a');
+  link.href = 'Luiz_Carlos_CV.pdf';
+  link.download = 'Luiz_Carlos_CV.pdf';
+  link.click();
+  link.remove();
+});
 /* ============================= Navigation Menu ============================= */
 
 var nav = document.querySelector(".nav"),
