@@ -191,7 +191,17 @@ function updateContent() {
     // Update home section
     document.querySelector(".hello").innerHTML = `${t.hello} <span class="name">Luiz Carlos</span>`;
     document.querySelector(".my-profession").innerHTML = `${t.profession} <span class="typing"></span>`;
-    document.querySelector(".home-info p").textContent = t.bio;
+    
+    // Fix for chess button - Save the chess link before updating text content
+    const bioElement = document.querySelector(".home-info p");
+    const chessLink = bioElement.querySelector("a");
+    bioElement.textContent = t.bio;
+    
+    // Re-append the chess link after updating text
+    if (chessLink) {
+        bioElement.appendChild(document.createTextNode(" "));
+        bioElement.appendChild(chessLink);
+    }
     
     // Update hire me buttons and re-add click events
     document.querySelectorAll(".btn.hire-me").forEach(btn => {
