@@ -61,16 +61,21 @@
 }
 .style-switcher .color-1{
     background: #ad0303;
+    cursor: pointer;
 }
 .style-switcher .color-2{
     background: #d69d00;
+    cursor: pointer;
 }
 .style-switcher .color-3{
     background: #1207a7;
+    cursor: pointer;
 }
 .style-switcher .color-4{
     background: #18a007;
+    cursor: pointer;
 }
 .style-switcher .color-5{
     background: #c405a4;
+    cursor: pointer;
 }

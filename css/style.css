@@ -995,18 +995,19 @@ body.dark .linkedin-button {
     border-radius: 50%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
+    padding: 8px;
 }
 
-.language-switcher i {
+.language-switcher span {
     font-size: 20px;
-    color: var(--skin-color);
-    transition: all 0.3s ease;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.language-switcher.active {
-    background: var(--skin-color);
-}
-
-.language-switcher.active i {
-    color: var(--text-black-900);
+.language-switcher:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }
